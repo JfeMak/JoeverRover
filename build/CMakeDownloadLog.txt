@@ -1,0 +1,3 @@
+#use_cache "/home/joever-rover/opencv/.cache"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_TBB_HASH_3rdparty_tbb_v2020_2_tar_gz"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_ADE_HASH_3rdparty_ade_v0_1_2d_zip"

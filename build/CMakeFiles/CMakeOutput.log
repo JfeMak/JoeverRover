@@ -1,0 +1,1076 @@
+The system is: Linux - 6.1.0-rpi6-rpi-v8 - aarch64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/joever-rover/opencv/build/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/joever-rover/opencv/build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-3bNoZN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_32ed7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32ed7.dir/build.make CMakeFiles/cmTC_32ed7.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-3bNoZN'
+Building CXX object CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -fPIE   -v -o CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_32ed7.dir/'
+ /usr/lib/gcc/aarch64-linux-gnu/12/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_32ed7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fPIE -fasynchronous-unwind-tables -o /tmp/ccZzYazI.s
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/12"
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/12
+ /usr/include/aarch64-linux-gnu/c++/12
+ /usr/include/c++/12/backward
+ /usr/lib/gcc/aarch64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 76d6f14273b9515783c50374b109b352
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_32ed7.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZzYazI.s
+GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_32ed7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32ed7.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_32ed7 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32ed7' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_32ed7.'
+ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKJf8Yo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_32ed7 /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32ed7' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_32ed7.'
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-3bNoZN'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/12]
+    add: [/usr/include/aarch64-linux-gnu/c++/12]
+    add: [/usr/include/c++/12/backward]
+    add: [/usr/lib/gcc/aarch64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/12] ==> [/usr/include/c++/12]
+  collapse include dir [/usr/include/aarch64-linux-gnu/c++/12] ==> [/usr/include/aarch64-linux-gnu/c++/12]
+  collapse include dir [/usr/include/c++/12/backward] ==> [/usr/include/c++/12/backward]
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/12/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12;/usr/include/aarch64-linux-gnu/c++/12;/usr/include/c++/12/backward;/usr/lib/gcc/aarch64-linux-gnu/12/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-3bNoZN]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_32ed7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32ed7.dir/build.make CMakeFiles/cmTC_32ed7.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-3bNoZN']
+  ignore line: [Building CXX object CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -fPIE   -v -o CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_32ed7.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_32ed7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fPIE -fasynchronous-unwind-tables -o /tmp/ccZzYazI.s]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/12"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/12]
+  ignore line: [ /usr/include/aarch64-linux-gnu/c++/12]
+  ignore line: [ /usr/include/c++/12/backward]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 76d6f14273b9515783c50374b109b352]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_32ed7.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZzYazI.s]
+  ignore line: [GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_32ed7]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32ed7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_32ed7 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32ed7' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_32ed7.']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKJf8Yo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_32ed7 /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccKJf8Yo.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_32ed7] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_32ed7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12] ==> [/usr/lib/gcc/aarch64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/12;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mLAE2H
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2f45a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2f45a.dir/build.make CMakeFiles/cmTC_2f45a.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mLAE2H'
+Building C object CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2f45a.dir/'
+ /usr/lib/gcc/aarch64-linux-gnu/12/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2f45a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fPIE -fasynchronous-unwind-tables -o /tmp/ccU6gddt.s
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/aarch64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f1bacec099212325d0da3c77e1f38897
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2f45a.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o /tmp/ccU6gddt.s
+GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_2f45a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f45a.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o -o cmTC_2f45a 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2f45a' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2f45a.'
+ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCVV5Rv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_2f45a /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2f45a' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2f45a.'
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mLAE2H'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/aarch64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/12/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/aarch64-linux-gnu/12/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mLAE2H]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2f45a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2f45a.dir/build.make CMakeFiles/cmTC_2f45a.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mLAE2H']
+  ignore line: [Building C object CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2f45a.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2f45a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fPIE -fasynchronous-unwind-tables -o /tmp/ccU6gddt.s]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: f1bacec099212325d0da3c77e1f38897]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2f45a.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o /tmp/ccU6gddt.s]
+  ignore line: [GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_2f45a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f45a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o -o cmTC_2f45a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2f45a' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2f45a.']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCVV5Rv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_2f45a /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccCVV5Rv.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2f45a] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_2f45a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12] ==> [/usr/lib/gcc/aarch64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/12;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-C3XXa3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0b4ed/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0b4ed.dir/build.make CMakeFiles/cmTC_0b4ed.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-C3XXa3'
+Building C object CMakeFiles/cmTC_0b4ed.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_0b4ed.dir/CheckIncludeFile.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-C3XXa3/CheckIncludeFile.c
+Linking C executable cmTC_0b4ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b4ed.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_0b4ed.dir/CheckIncludeFile.c.o -o cmTC_0b4ed 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-C3XXa3'
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-IXcsKc
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12dfd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12dfd.dir/build.make CMakeFiles/cmTC_12dfd.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-IXcsKc'
+Building C object CMakeFiles/cmTC_12dfd.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_12dfd.dir/CheckSymbolExists.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-IXcsKc/CheckSymbolExists.c
+Linking C executable cmTC_12dfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12dfd.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_12dfd.dir/CheckSymbolExists.c.o -o cmTC_12dfd 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-IXcsKc'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-aNAFXL
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_92bfb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_92bfb.dir/build.make CMakeFiles/cmTC_92bfb.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-aNAFXL'
+Building C object CMakeFiles/cmTC_92bfb.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_92bfb.dir/CheckIncludeFile.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-aNAFXL/CheckIncludeFile.c
+Linking C executable cmTC_92bfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92bfb.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_92bfb.dir/CheckIncludeFile.c.o -o cmTC_92bfb 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-aNAFXL'
+
+
+
+Determining if the memalign exist passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-xSsE0S
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d9b27/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9b27.dir/build.make CMakeFiles/cmTC_d9b27.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-xSsE0S'
+Building C object CMakeFiles/cmTC_d9b27.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_d9b27.dir/CheckSymbolExists.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-xSsE0S/CheckSymbolExists.c
+Linking C executable cmTC_d9b27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9b27.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_d9b27.dir/CheckSymbolExists.c.o -o cmTC_d9b27 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-xSsE0S'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nfp1Ia
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6b970/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b970.dir/build.make CMakeFiles/cmTC_6b970.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nfp1Ia'
+Building C object CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp -v -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nfp1Ia/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wmissing-prototypes' '-Wstrict-prototypes' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wuninitialized' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-fPIE' '-o' 'CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6b970.dir/'
+ /usr/lib/gcc/aarch64-linux-gnu/12/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT -D NDEBUG -D NDEBUG /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nfp1Ia/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_6b970.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -O3 -Wextra -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat=1 -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -version -fsigned-char -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections -fvisibility=hidden -fopenmp -fPIE -fasynchronous-unwind-tables -o /tmp/cctHEJe5.s
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/aarch64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f1bacec099212325d0da3c77e1f38897
+COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wmissing-prototypes' '-Wstrict-prototypes' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wuninitialized' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-fPIE' '-o' 'CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6b970.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o /tmp/cctHEJe5.s
+GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wmissing-prototypes' '-Wstrict-prototypes' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wuninitialized' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-fPIE' '-o' 'CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.'
+Linking C executable cmTC_6b970
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b970.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp -v -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o -o cmTC_6b970  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/aarch64-linux-gnu/12/libgomp.spec
+COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wmissing-prototypes' '-Wstrict-prototypes' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wuninitialized' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-o' 'cmTC_6b970' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'cmTC_6b970.'
+ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cctVc6zG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_6b970 /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. --gc-sections --as-needed --no-undefined CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wmissing-prototypes' '-Wstrict-prototypes' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wuninitialized' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-o' 'cmTC_6b970' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'cmTC_6b970.'
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nfp1Ia'
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nfp1Ia]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6b970/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b970.dir/build.make CMakeFiles/cmTC_6b970.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nfp1Ia']
+  ignore line: [Building C object CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp -v -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nfp1Ia/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wmissing-prototypes' '-Wstrict-prototypes' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wuninitialized' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-fPIE' '-o' 'CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6b970.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT -D NDEBUG -D NDEBUG /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nfp1Ia/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_6b970.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -O3 -Wextra -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat=1 -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -version -fsigned-char -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections -fvisibility=hidden -fopenmp -fPIE -fasynchronous-unwind-tables -o /tmp/cctHEJe5.s]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: f1bacec099212325d0da3c77e1f38897]
+  ignore line: [COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wmissing-prototypes' '-Wstrict-prototypes' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wuninitialized' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-fPIE' '-o' 'CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6b970.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o /tmp/cctHEJe5.s]
+  ignore line: [GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wmissing-prototypes' '-Wstrict-prototypes' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wuninitialized' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-fPIE' '-o' 'CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.']
+  ignore line: [Linking C executable cmTC_6b970]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b970.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp -v -O3 -DNDEBUG  -DNDEBUG   -Wl --gc-sections -Wl --as-needed -Wl --no-undefined  CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o -o cmTC_6b970  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/aarch64-linux-gnu/12/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wmissing-prototypes' '-Wstrict-prototypes' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wuninitialized' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-o' 'cmTC_6b970' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'cmTC_6b970.']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cctVc6zG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_6b970 /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. --gc-sections --as-needed --no-undefined CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctVc6zG.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6b970] ==> ignore
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..]
+    arg [--gc-sections] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [CMakeFiles/cmTC_6b970.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12] ==> [/usr/lib/gcc/aarch64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit objs: []
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/12;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mDqWUa
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7644a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7644a.dir/build.make CMakeFiles/cmTC_7644a.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mDqWUa'
+Building CXX object CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -v -O3 -DNDEBUG  -DNDEBUG -fPIE -std=c++11 -o CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mDqWUa/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Wnon-virtual-dtor' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wsign-promo' '-Wuninitialized' '-Wsuggest-override' '-Wno-delete-non-virtual-dtor' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_7644a.dir/'
+ /usr/lib/gcc/aarch64-linux-gnu/12/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT -D NDEBUG -D NDEBUG /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mDqWUa/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_7644a.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -O3 -Wextra -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat=1 -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -std=c++11 -version -fsigned-char -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -fPIE -fasynchronous-unwind-tables -o /tmp/ccaVfZSM.s
+GNU C++11 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/12"
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/12
+ /usr/include/aarch64-linux-gnu/c++/12
+ /usr/include/c++/12/backward
+ /usr/lib/gcc/aarch64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++11 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 76d6f14273b9515783c50374b109b352
+COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Wnon-virtual-dtor' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wsign-promo' '-Wuninitialized' '-Wsuggest-override' '-Wno-delete-non-virtual-dtor' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_7644a.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o /tmp/ccaVfZSM.s
+GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Wnon-virtual-dtor' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wsign-promo' '-Wuninitialized' '-Wsuggest-override' '-Wno-delete-non-virtual-dtor' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.'
+Linking CXX executable cmTC_7644a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7644a.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -v -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o -o cmTC_7644a  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/aarch64-linux-gnu/12/libgomp.spec
+COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Wnon-virtual-dtor' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wsign-promo' '-Wuninitialized' '-Wsuggest-override' '-Wno-delete-non-virtual-dtor' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-o' 'cmTC_7644a' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'cmTC_7644a.'
+ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4zqC2Z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_7644a /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. --gc-sections --as-needed --no-undefined CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Wnon-virtual-dtor' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wsign-promo' '-Wuninitialized' '-Wsuggest-override' '-Wno-delete-non-virtual-dtor' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-o' 'cmTC_7644a' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'cmTC_7644a.'
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mDqWUa'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mDqWUa]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7644a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7644a.dir/build.make CMakeFiles/cmTC_7644a.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mDqWUa']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -v -O3 -DNDEBUG  -DNDEBUG -fPIE -std=c++11 -o CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mDqWUa/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Wnon-virtual-dtor' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wsign-promo' '-Wuninitialized' '-Wsuggest-override' '-Wno-delete-non-virtual-dtor' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_7644a.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT -D NDEBUG -D NDEBUG /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-mDqWUa/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_7644a.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -O3 -Wextra -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat=1 -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -std=c++11 -version -fsigned-char -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -fPIE -fasynchronous-unwind-tables -o /tmp/ccaVfZSM.s]
+  ignore line: [GNU C++11 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/12"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/12]
+  ignore line: [ /usr/include/aarch64-linux-gnu/c++/12]
+  ignore line: [ /usr/include/c++/12/backward]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++11 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 76d6f14273b9515783c50374b109b352]
+  ignore line: [COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Wnon-virtual-dtor' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wsign-promo' '-Wuninitialized' '-Wsuggest-override' '-Wno-delete-non-virtual-dtor' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_7644a.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o /tmp/ccaVfZSM.s]
+  ignore line: [GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Wnon-virtual-dtor' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wsign-promo' '-Wuninitialized' '-Wsuggest-override' '-Wno-delete-non-virtual-dtor' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.']
+  ignore line: [Linking CXX executable cmTC_7644a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7644a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -v -O3 -DNDEBUG  -DNDEBUG   -Wl --gc-sections -Wl --as-needed -Wl --no-undefined  CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o -o cmTC_7644a  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/aarch64-linux-gnu/12/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fsigned-char' '-Wextra' '-Wall' '-Wreturn-type' '-Wnon-virtual-dtor' '-Waddress' '-Wsequence-point' '-Wformat=1' '-Wformat-security' '-Wmissing-declarations' '-Wundef' '-Winit-self' '-Wpointer-arith' '-Wshadow' '-Wsign-promo' '-Wuninitialized' '-Wsuggest-override' '-Wno-delete-non-virtual-dtor' '-Wno-comment' '-Wimplicit-fallthrough=3' '-Wno-strict-overflow' '-fdiagnostics-show-option' '-pthread' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-O3' '-D' 'NDEBUG' '-D' 'NDEBUG' '-o' 'cmTC_7644a' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'cmTC_7644a.']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4zqC2Z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_7644a /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. --gc-sections --as-needed --no-undefined CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4zqC2Z.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7644a] ==> ignore
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..]
+    arg [--gc-sections] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [CMakeFiles/cmTC_7644a.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12] ==> [/usr/lib/gcc/aarch64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit objs: []
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/12;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-DgiOST
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_75c45/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_75c45.dir/build.make CMakeFiles/cmTC_75c45.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-DgiOST'
+Building C object CMakeFiles/cmTC_75c45.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_75c45.dir/CheckFunctionExists.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-DgiOST/CheckFunctionExists.c
+Linking C executable cmTC_75c45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75c45.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_75c45.dir/CheckFunctionExists.c.o -o cmTC_75c45 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-DgiOST'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-G6Og3W
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0be71/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0be71.dir/build.make CMakeFiles/cmTC_0be71.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-G6Og3W'
+Building C object CMakeFiles/cmTC_0be71.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_0be71.dir/CheckIncludeFile.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-G6Og3W/CheckIncludeFile.c
+Linking C executable cmTC_0be71
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0be71.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_0be71.dir/CheckIncludeFile.c.o -o cmTC_0be71 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-G6Og3W'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-VhQYZS
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e9179/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9179.dir/build.make CMakeFiles/cmTC_e9179.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-VhQYZS'
+Building C object CMakeFiles/cmTC_e9179.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e9179.dir/CheckIncludeFile.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-VhQYZS/CheckIncludeFile.c
+Linking C executable cmTC_e9179
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9179.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e9179.dir/CheckIncludeFile.c.o -o cmTC_e9179 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-VhQYZS'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-JKSg04
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04da1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04da1.dir/build.make CMakeFiles/cmTC_04da1.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-JKSg04'
+Building C object CMakeFiles/cmTC_04da1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_04da1.dir/CheckIncludeFile.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-JKSg04/CheckIncludeFile.c
+Linking C executable cmTC_04da1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04da1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_04da1.dir/CheckIncludeFile.c.o -o cmTC_04da1 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-JKSg04'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-vuW2q5
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46b46/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46b46.dir/build.make CMakeFiles/cmTC_46b46.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-vuW2q5'
+Building C object CMakeFiles/cmTC_46b46.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_46b46.dir/CheckIncludeFile.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-vuW2q5/CheckIncludeFile.c
+Linking C executable cmTC_46b46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46b46.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_46b46.dir/CheckIncludeFile.c.o -o cmTC_46b46 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-vuW2q5'
+
+
+
+Determining if the include file /usr/include/libpng/png.h exists passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-qecUb1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5c342/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5c342.dir/build.make CMakeFiles/cmTC_5c342.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-qecUb1'
+Building C object CMakeFiles/cmTC_5c342.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_5c342.dir/CheckIncludeFile.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-qecUb1/CheckIncludeFile.c
+Linking C executable cmTC_5c342
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c342.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_5c342.dir/CheckIncludeFile.c.o -o cmTC_5c342 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-qecUb1'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-yy0jNv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4f9b4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4f9b4.dir/build.make CMakeFiles/cmTC_4f9b4.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-yy0jNv'
+Building C object CMakeFiles/cmTC_4f9b4.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4f9b4.dir/src.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-yy0jNv/src.c
+Linking C executable cmTC_4f9b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f9b4.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_4f9b4.dir/src.c.o -o cmTC_4f9b4 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-yy0jNv'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function dgemm_ exists passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-qLWgY8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cf95a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cf95a.dir/build.make CMakeFiles/cmTC_cf95a.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-qLWgY8'
+Building C object CMakeFiles/cmTC_cf95a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp -DCHECK_FUNCTION_EXISTS=dgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_cf95a.dir/CheckFunctionExists.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-qLWgY8/CheckFunctionExists.c
+Linking C executable cmTC_cf95a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf95a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp -DCHECK_FUNCTION_EXISTS=dgemm_ -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_cf95a.dir/CheckFunctionExists.c.o -o cmTC_cf95a  /usr/lib/aarch64-linux-gnu/libblas.so /usr/lib/aarch64-linux-gnu/libf77blas.so /usr/lib/aarch64-linux-gnu/libatlas.so 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-qLWgY8'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-hIX7Ow
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13b97/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13b97.dir/build.make CMakeFiles/cmTC_13b97.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-hIX7Ow'
+Building C object CMakeFiles/cmTC_13b97.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_13b97.dir/CheckFunctionExists.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-hIX7Ow/CheckFunctionExists.c
+Linking C executable cmTC_13b97
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13b97.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_13b97.dir/CheckFunctionExists.c.o -o cmTC_13b97  /usr/lib/aarch64-linux-gnu/liblapack.so /usr/lib/aarch64-linux-gnu/libblas.so /usr/lib/aarch64-linux-gnu/libf77blas.so /usr/lib/aarch64-linux-gnu/libatlas.so 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-hIX7Ow'
+
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-UwrjHk
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bf8e3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bf8e3.dir/build.make CMakeFiles/cmTC_bf8e3.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-UwrjHk'
+Building C object CMakeFiles/cmTC_bf8e3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_bf8e3.dir/CheckIncludeFile.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-UwrjHk/CheckIncludeFile.c
+Linking C executable cmTC_bf8e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf8e3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_bf8e3.dir/CheckIncludeFile.c.o -o cmTC_bf8e3 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-UwrjHk'
+
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-joAeJJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_89e66/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_89e66.dir/build.make CMakeFiles/cmTC_89e66.dir/build
+gmake[1]: Entering directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-joAeJJ'
+Building C object CMakeFiles/cmTC_89e66.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_89e66.dir/CheckIncludeFile.c.o -c /home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-joAeJJ/CheckIncludeFile.c
+Linking C executable cmTC_89e66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89e66.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fopenmp  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_89e66.dir/CheckIncludeFile.c.o -o cmTC_89e66 
+gmake[1]: Leaving directory '/home/joever-rover/opencv/build/CMakeFiles/CMakeScratch/TryCompile-joAeJJ'
+
+
+
